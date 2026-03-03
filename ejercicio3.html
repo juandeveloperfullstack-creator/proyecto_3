@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario-2</title>
+    <title>Formulario-3</title>
 </head>
 <body>
-    <h1>Formulario con metodo get</h1>
-    <form action="procesar.php" method="get">
-
+    <h1>Formulario autocompletar</h1>
+    <form action="procesar.php" method="get" autocomplete="new-password"> 
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre">
-
         <br><br>
 
-        <label for="ciudad">Ciudad:</label>
-        <input type="text" id="ciudad" name="ciudad">
-
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="email">
         <br><br>
 
+        <label for="tel">Telefono:</label>
+        <input type="tel" id="tel" name="telefono">
+        <br><br>
         <button type="submit">Enviar</button>
     </form>
 </body>
