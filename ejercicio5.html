@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-5</title>
+</head>
+<body>
+    <h1>Registro completo</h1>
+    <form action="procesar.php" method="post" autocomplete="on">
+        <label for ="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+
+        <label for="contra">Contraseña:</label>
+        <input type="password" id="contra" name="contraseña">
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+        <br><br>
+
+        <label for="FNacimento">Fecha de Nacimiento:</label>
+        <input type="date" id="FNacimiento" name="fecha_nacimiento">
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
